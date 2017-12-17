@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const axe=require('axe-core');
 var page;
 async function gmail(){
-	const browser = await puppeteer.launch({headless: false,devtools:true});
+	const browser = await puppeteer.launch({headless: false,devtools:false});
 	page = await browser.newPage();
 	await page.setViewport({width:1400,height:700});	
 	function openDashboard(){
