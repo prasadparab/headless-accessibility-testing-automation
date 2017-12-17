@@ -1,0 +1,17 @@
+{
+  "name": "headless-accessibility-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gmail-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Prasad Parab",
+  "license": "ISC",
+  "devDependencies": {
+    "axe-core": "^2.5.0",
+    "jquery": "^3.2.1",
+    "puppeteer": "^0.13.0"
+  }
+}
